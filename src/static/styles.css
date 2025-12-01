@@ -87,13 +87,32 @@ section h3 {
 }
 
 .participants-section ul {
-  list-style-type: disc;
-  padding-left: 20px;
+  list-style-type: none;
+  padding-left: 0;
   color: #555;
 }
 
 .participants-section li {
   margin-bottom: 5px;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 0;
+}
+
+.delete-icon {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #c62828;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+
+.delete-icon:hover {
+  color: #a31515;
 }
 
 .form-group {
